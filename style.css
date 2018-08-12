@@ -1,0 +1,171 @@
+/*
+Project : Bruno Sushi chef profile website 
+Author : Dalton Ramiro
+description : Sushi chef webpage
+font domain: Google fonts Indie flower/Nothing you could Do.
+revision: 1.0
+
+*/
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper
+{
+    background: beige;
+    margin:0px;
+    padding:0px;
+    background-image: url(./images/koifish.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+#banner
+{
+    
+    height: 880px;
+    font-family: 'Nothing You Could Do', cursive;
+    background:url(./images/banner.jpg);
+    top:0px;
+    background-size: cover;
+    color: white;
+    
+}
+.toptag
+{
+    
+    font-size: 70px;
+    float: right;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 350px;
+
+}
+
+#container
+{
+    
+    margin: 5px 200px 5px 200px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+ 
+}
+#about
+{
+    padding-top: 10px;
+    height: 800px;
+    background-color: rgba(240, 119, 92, 0.664);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius:0.4em; 
+
+}
+#textabout
+{
+    margin-top: 40px;
+    font-size: 20px;
+}
+#topnavgation
+{
+    height: 60px;
+    background-color: rgba(22, 21, 21, 0.925);
+    font-size: 35px;
+    font-family: 'Nothing You Could Do', cursive;
+
+}
+.nav-item a:hover
+{
+    height: 60px;
+    border-radius: 0.3em; 
+    background-color: rgb(240, 119, 92, 0.664);
+    color: aliceblue;
+} 
+
+
+#img-about
+{
+    width: 430px;
+    height: 530px;
+    float: left;
+    border-radius: 0.3em; 
+    margin: 30px 5px 0px 30px;
+}
+
+#mywork
+{
+    padding-top: 20px;
+    height: 800px;
+    border-radius:0.4em; 
+    background-color: rgba(255, 255, 255, 0.61);
+    margin-bottom: 30px;
+      
+}
+
+.img-food
+{
+    width: 220px;
+    height: 220px;
+    margin: 30px 10px 10px 5px;
+    border-radius: 50%; 
+    transition: 0.5s;
+    
+}
+#mywork img:hover
+{
+    transform: scale(2);
+    border-radius: 0.4em;
+}    
+
+#contact
+{   
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
+    height: 400px;
+    background-color: rgba(240, 119, 92, 0.664);
+    margin-bottom: 10px;
+    border-radius:0.4em; 
+}
+
+.icon-media
+{
+    width: 220px;
+    height: 220px;
+    margin: 30px 10px 10px 5px;
+    
+    
+}
+.icon
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+#dev
+{
+    position: relative;
+    height: 40px;
+    bottom: 0px;
+    background-color: rgba(22, 21, 21, 0.671);
+    color: rgb(79, 197, 197);
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Cambria';
+}
+#devlg
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
